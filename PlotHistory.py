@@ -17,7 +17,7 @@ def NetPlot(net_history):
     plt.legend(['Train Data','Validation Data'])
 
     plt.figure('Accuracy Diagram')
-    plt.title('Accuracy of Deep Neural Network')
+    plt.title('Accuracy of Deep Neural Networks')
     plt.xlabel('Epochs')
     plt.ylabel('Accuracy')
     plt.plot(accuracies)
